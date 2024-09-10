@@ -1,0 +1,33 @@
+1. Create table stud(id, name, dept, paidfee) with 8 records. Create stud.csv file of the stud data (Department will be BBA and BCA). 
+   
+   Read csv file using reader object and write data with remaining fee. ( Total fee of bba is 13400 and bca is 15400 Rs)
+
+2. Create table emp(empid, empname, salary) and insert 8 records. Print only those records where salary > 10000  and write this data into salary.csv file. Do all this task from python.
+
+3. Create python.txt file . Take input from user till user choise and write it into python.txt. Take start and end line number from user and print only those line.
+
+4. Create table product(userid, pid, pname, prate, pqty) and insert 5 record from python. Create trigger to check product rate and qty is not 0. Write product table data into csv file using writer object.
+
+5. Create csv file exam(sid,sname, seatno, blocknumber) using writer object with 10 records. Read this file and count students per block.
+
+6. Write a python program create csv file student.csv(sid,sname,city,contact) using 10 records. (in which 5 records input directly and 5 records take input from user) write records into this file.
+
+   Read this file using csv module and print only those where city is 'Bardoli'.
+   
+7. Create table contact(fname,laname,contact,email,city). Perform following operation on it.
+   1. Insert Contact 8 records
+   2. Delete Contact
+   
+   Create trigger to validate input on the contact table. Also maintain log regarding above operation in logtable with operation name with datetime. if inserted and deleted then maintain detail about fname,lname, contact and datatime.
+   if record is delete then maintain logtable with old and new value of contacts.
+   
+8. Create table Employee ( eid, ename, dept, basic, branch). eid must be primary key. [ Department : Account, Inventory, IT, HR. ] Insert 5 Records and export into csv file.
+   Read csv file using reader object. Update records who are from "Surat" branch with increment in salary 10% and write it into "Surat.csv" file.
+
+9.  Create text file on python by taking input from user. Read Python.txt file and Print it in Reverse. 
+
+10.  Create table cricketer(cid, cname, match, run) and insert 8 players records. Print player records with average.  and write this data into player.csv file. Do all this task from python.
+
+11.  Create table team(tid, country, totalmatch, win,loss). Insert 8 team detail. Create trigger to verify totalmatch is not 0. export data into csv file. Read file using reader object and print record with winning %age.
+
+12.  Create BCA.txt. Write 5 lines directly and 5 lines must be taken from user. Print the smallest and largest word in this file.
